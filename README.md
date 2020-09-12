@@ -5,7 +5,7 @@
   
 # Won Games Api
 
-Won Games Api using Strapi, PostgreSQL and Node.JS. 
+Won Games Api using Strapi, PostgreSQL, and Node.JS. 
 
 ## Getting Started
 
@@ -48,7 +48,7 @@ Add additional notes about how to deploy this on a live system
 * [Node.JS](https://nodejs.org/en/docs/) - Javascript runtime.
 * [PostgresSQL](https://docs.mongodb.com/) - SQL database.
 * [Strapi](https://strapi.io/) - Strapi is the leading open-source headless
-CMS. It’s 100% Javascript, fully customizable and
+CMS. It’s 100% Javascript, fully customizable, and
 developer-first.
 
 ## Acknowledgments
