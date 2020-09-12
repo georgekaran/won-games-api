@@ -1,6 +1,8 @@
 <p align="center">
   <img src="./admin/src/assets/images/logo-won-dark.svg"
-       alt="Won Games Dark"/>
+       alt="Won Games Dark" >
+  <br/>
+  <img src="./docs/images/strapi-wongames.png" >
 </p>  
   
 # Won Games Api
