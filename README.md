@@ -1,6 +1,8 @@
-<img src="./admin/src/assets/images/logo-won-dark.svg" align="center"
-     alt="Won Games Dark">
-
+<p align="center">
+  <img src="./admin/src/assets/images/logo-won-dark.svg"
+       alt="Won Games Dark"/>
+</p>  
+  
 # Won Games Api
 
 Won Games Api using Strapi, PostgreSQL and Node.JS. 
