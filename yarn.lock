@@ -6740,10 +6740,10 @@ markdown-it-sup@^1.0.0:
   resolved "https://registry.yarnpkg.com/markdown-it-sup/-/markdown-it-sup-1.0.0.tgz#cb9c9ff91a5255ac08f3fd3d63286e15df0a1fc3"
   integrity sha1-y5yf+RpSVawI8/09YyhuFd8KH8M=
 
-markdown-it@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-11.0.0.tgz#dbfc30363e43d756ebc52c38586b91b90046b876"
-  integrity sha512-+CvOnmbSubmQFSA9dKz1BRiaSMV7rhexl3sngKqFyXSagoA3fBdJQ8oZWtRy2knXdpDXaBw44euz37DeJQ9asg==
+markdown-it@^11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-11.0.1.tgz#b54f15ec2a2193efa66dda1eb4173baea08993d6"
+  integrity sha512-aU1TzmBKcWNNYvH9pjq6u92BML+Hz3h5S/QpfTFwiQF852pLT+9qHsrhM9JYipkOXZxGn+sGH8oyJE9FD9WezQ==
   dependencies:
     argparse "^1.0.7"
     entities "~2.0.0"
@@ -9873,11 +9873,17 @@ strapi-helper-plugin@3.2.1:
     styled-components "^5.0.0"
     whatwg-fetch "^3.3.1"
 
-strapi-plugin-content-manager@3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.1.5.tgz#945ed24d31624e83426ccd4df0ded970f50db89a"
-  integrity sha512-5PcrgemcWrnS2YOZWnjSDar6mEL7AdvZTFYLZL1xplwFPQb3huT/EwbFDR1oKtYGZ57noi7blO3TLmeiedoGiQ==
+strapi-plugin-content-manager@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.2.1.tgz#1a5778f00bfa10b0a7ed9778360eeac428bab739"
+  integrity sha512-XikrfuhmFOMR1RGvhAF121t/Rb+9/6jy3+nL4dHeHfSrSwVw7FkVgZzt/V2OwazEo1ZfJITUIPwQCs2jORDsfg==
   dependencies:
+    "@buffetjs/core" "3.3.1"
+    "@buffetjs/custom" "3.3.1"
+    "@buffetjs/hooks" "3.3.1"
+    "@buffetjs/icons" "3.3.1"
+    "@buffetjs/styles" "3.3.1"
+    "@buffetjs/utils" "3.3.1"
     "@sindresorhus/slugify" "1.1.0"
     classnames "^2.2.6"
     codemirror "^5.46.0"
@@ -9885,7 +9891,7 @@ strapi-plugin-content-manager@3.1.5:
     highlight.js "^10.1.1"
     immutable "^3.8.2"
     lodash "4.17.19"
-    markdown-it "^11.0.0"
+    markdown-it "^11.0.1"
     markdown-it-abbr "^1.0.4"
     markdown-it-container "^3.0.0"
     markdown-it-deflist "^2.0.3"
@@ -9907,8 +9913,8 @@ strapi-plugin-content-manager@3.1.5:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-helper-plugin "3.1.5"
-    strapi-utils "3.1.5"
+    strapi-helper-plugin "3.2.1"
+    strapi-utils "3.2.1"
     yup "^0.27.0"
 
 strapi-plugin-content-type-builder@3.2.1:
