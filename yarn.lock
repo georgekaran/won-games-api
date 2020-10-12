@@ -9882,10 +9882,10 @@ strapi-plugin-entity-relationship-chart@^3.1.0:
     dagre "^0.8.5"
     storm-react-diagrams "^5.2.1"
 
-strapi-plugin-graphql@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.2.1.tgz#c1f893188059725f85c6beba02acc6c2a7fc4e72"
-  integrity sha512-slQ0dTvuZNoIILlkeQZyyOf6S1Wuf5st1vsiz9269BjGxDfgB14dzG/wnxTiNkRwpfBK7ypz6a+X2utNLo6MEw==
+strapi-plugin-graphql@3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.2.3.tgz#c4b229a10d9fe8e4c7bea8510ecfd50da348bd0b"
+  integrity sha512-94xGIC0fhxuvFP5BfpM1thTxHPXfG8i9/+qIDSXco+guRgAhKmvwoDR8NdBFJcUE1kqLWEFFfG+WsyBKwDc9CA==
   dependencies:
     "@apollo/federation" "^0.20.1"
     apollo-server-koa "2.18.1"
@@ -9901,7 +9901,7 @@ strapi-plugin-graphql@3.2.1:
     koa-compose "^4.1.0"
     lodash "4.17.20"
     pluralize "^8.0.0"
-    strapi-utils "3.2.1"
+    strapi-utils "3.2.3"
 
 strapi-plugin-upload@3.2.1:
   version "3.2.1"
@@ -9987,6 +9987,18 @@ strapi-utils@3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.2.1.tgz#b3ad50c193137cd773905c0aa2d00cf756b8d370"
   integrity sha512-VQgnMxJvWys613FEaYM7ErzmvdchojVmYmmVOqzTlo9P4pJt4JN2q6jidpgsUFZR3r2/VFfUA5TPvFMZtXtOpg==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.19"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.2.3.tgz#327a0f94ec15857c01d9766a1b50aaf2898b78cd"
+  integrity sha512-esCNsCJaJeEyA66AkKWsDo372y5c639JL/2AhKxl1WefS3TIW3qlT/Kuc3CmB2KAaG6PPTFEYqd2q4EImvRlSQ==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.8.1"
