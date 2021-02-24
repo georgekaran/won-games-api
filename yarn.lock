@@ -9865,14 +9865,14 @@ strapi-plugin-content-type-builder@3.2.1:
     strapi-utils "3.2.1"
     yup "^0.27.0"
 
-strapi-plugin-email@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.2.1.tgz#7305a15637b7f032b39a51273dd95614c9eb4d84"
-  integrity sha512-pFD7sa30GRdETsFq64etN7GYfHgvMCosa9mIun9VhfoQuv6oLH9Ao/nRT/oUgyjxhzRtHI9ciaBD4xLufe2Dbg==
+strapi-plugin-email@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.5.1.tgz#bdbd867c2bf2af260a4f9aaff815e53ca9087995"
+  integrity sha512-0tvhf2Zx4bcaImdHtm2iS3K04G7rn+ArDMnV8xGuLZPLmcETeBgf+CATj8TbU0WU8wrdHZABPB+hYCtaHOZg1Q==
   dependencies:
-    lodash "4.17.19"
-    strapi-provider-email-sendmail "3.2.1"
-    strapi-utils "3.2.1"
+    lodash "4.17.20"
+    strapi-provider-email-sendmail "3.5.1"
+    strapi-utils "3.5.1"
 
 strapi-plugin-entity-relationship-chart@^3.1.0:
   version "3.1.0"
@@ -9970,13 +9970,13 @@ strapi-plugin-users-permissions@3.2.1:
     strapi-utils "3.2.1"
     uuid "^3.1.0"
 
-strapi-provider-email-sendmail@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.2.1.tgz#98eba5427456178248a0a7821b2b24751e7869b2"
-  integrity sha512-Bcu1ft3oHe8gqxNH15UpoxG0PKBi08P9s5xIaF5XvmSW6CpYuTH7mjx3NEkYbi5HqAB6BVHa9lczsFs6fdfhjw==
+strapi-provider-email-sendmail@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.5.1.tgz#2620ac6d4ce14f003a44c9ea634d09b2eba9b5bd"
+  integrity sha512-y7xlr8CPy7mZMwMvkPQQNJa/rKYtDxPdHNzmljOKGJteRfSq10eNiV+xVT8pwagjfO2TKu2b2POHcstxLgI7ew==
   dependencies:
     sendmail "^1.6.1"
-    strapi-utils "3.2.1"
+    strapi-utils "3.5.1"
 
 strapi-provider-upload-local@3.2.1:
   version "3.2.1"
@@ -9991,6 +9991,18 @@ strapi-utils@3.2.1:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.8.1"
     lodash "4.17.19"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.5.1.tgz#732d9965617c1630264eac381e5840556c557c40"
+  integrity sha512-jvxTBAUb9OtLHIqh9qxajgAgDiwo35kvbrIudaf3Sz9zXqjyZEvv9zPN7LNPkRuhEkzzKg+zaqN8VP9Ezaf7og==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.20"
     pino "^4.7.1"
     pluralize "^8.0.0"
     yup "0.29.3"
